@@ -231,6 +231,7 @@ print('Melhor solução da literatura: 13')
 print('Tempo de execução: ', time_taken5)
 
 aux = []
+y = []
 
 aux.append(time_taken1)
 aux.append(time_taken2)
@@ -238,5 +239,11 @@ aux.append(time_taken3)
 aux.append(time_taken4)
 aux.append(time_taken5)
 
-plt.plot(aux)
+y.append(11)
+y.append(23)
+y.append(95)
+y.append(191)
+y.append(561)
+
+plt.plot(y,aux)
 plt.show()
