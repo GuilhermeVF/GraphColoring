@@ -1,0 +1,9 @@
+Para a execução do programa é necessário primeiro instalar certas bibliotecas como matplotlib numpy, para isso execute os comandos:
+pip install matplotlib,
+pip install numpy,
+
+Uma vez instaladas as bibliotecas, agora basta digitar no terminal:
+
+python3 GraphColoring.py
+
+Apos a execução do comando, os grafos serão lidos dos arquivos presentes na pasta Graphs, e então o algoritmo será executado, produzindo como saida o resultado obtido pelo algoritmo, o melhor resultado possível e o tempo de execução.
